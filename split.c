@@ -22,7 +22,7 @@ char **split_line(char *line)
 		free(tokens);
 		return (NULL);
 	}
-	token = _strtok(line, TOK_DELIM);
+	token = strtok(line, TOK_DELIM);
 
 	for (i = 0; token != NULL; i++)
 	{
@@ -34,7 +34,7 @@ char **split_line(char *line)
 			return (NULL);
 		}
 		_memcpy(tokens[i], token, _strlen(token) + 1);
-		token = _strtok(NULL, TOK_DELIM);
+		token = strtok(NULL, TOK_DELIM);
 	}
 	tokens[i] = NULL;
 	free(token);

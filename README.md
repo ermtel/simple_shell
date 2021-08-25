@@ -46,22 +46,21 @@ There are many commands you can execute from within `hsh`. Below are some exampl
 ```
 $ ls -l
 total 80
--rw-r--r-- 1 root root   157 Apr 29 05:56 AUTHORS
--rw-r--r-- 1 root root  1420 Apr 29 06:08 README.md
--rw-r--r-- 1 root root   906 Apr 29 05:56 builtin.c
--rw-r--r-- 1 root root  2563 Apr 29 05:56 env.c
--rw-r--r-- 1 root root  1327 Apr 29 05:56 error_message.c
--rw-r--r-- 1 root root  1377 Apr 29 05:56 exec.c
--rw-r--r-- 1 root root  1275 Apr 29 05:56 holberton.h
--rwxr-xr-x 1 root root 18771 Apr 29 06:10 hsh
--rw-r--r-- 1 root root   677 Apr 29 05:56 man_1_simple_shell
--rw-r--r-- 1 root root  2109 Apr 29 05:56 mem.c
--rw-r--r-- 1 root root   501 Apr 29 05:56 prompt.c
--rw-r--r-- 1 root root   647 Apr 29 05:56 shell.c
--rw-r--r-- 1 root root  1372 Apr 29 05:56 split.c
--rw-r--r-- 1 root root  1875 Apr 29 05:56 str.c
--rw-r--r-- 1 root root   392 Apr 29 05:56 str2.c
--rw-r--r-- 1 root root   784 Apr 29 05:56 strtok.c
+-rw-r--r-- 1 root root   114 Aug 24 11:51 AUTHORS
+-rw-r--r-- 1 root root  4634 Aug 24 11:51 README.md
+-rw-r--r-- 1 root root   906 Aug 24 11:51 builtin.c
+-rw-r--r-- 1 root root  2563 Aug 24 11:51 env.c
+-rw-r--r-- 1 root root  1327 Aug 24 11:51 error_message.c
+-rw-r--r-- 1 root root  1377 Aug 24 11:51 exec.c
+-rw-r--r-- 1 root root  1318 Aug 25 07:35 holberton.h
+-rwxr-xr-x 1 root root 22752 Aug 25 08:10 hsh
+-rw-r--r-- 1 root root   697 Aug 24 11:59 man_1_simple_shell
+-rw-r--r-- 1 root root  2109 Aug 24 11:51 mem.c
+-rw-r--r-- 1 root root   501 Aug 24 11:51 prompt.c
+-rw-r--r-- 1 root root   647 Aug 24 11:51 shell.c
+-rw-r--r-- 1 root root  1374 Aug 25 07:26 split.c
+-rw-r--r-- 1 root root  1875 Aug 24 11:51 str.c
+-rw-r--r-- 1 root root  1193 Aug 25 07:40 str2.c
 ```
 ---------
 ### `echo anything`
